@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-types": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/nodech/perf-utils/issues"
   },
-  "homepage": "https://github.com/nodech/perf-utils#readme"
+  "homepage": "https://github.com/nodech/perf-utils#readme",
+  "dependencies": {
+    "bfile": "^0.2.3"
+  },
+  "devDependencies": {
+    "bts-type-deps": "^0.0.3"
+  }
 }
